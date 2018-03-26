@@ -1,0 +1,49 @@
+.divao{
+    background-image: url(img/gav.png);
+    padding: 70px 100px;
+    margin: 100px 33% 0% 33%;
+    background-size: cover;
+    opacity: .9;
+}
+
+.inp{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.but{
+    background-color: rgb(80, 64, 110);
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    margin-top: 15px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(img/sh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+.tab{
+    background-color: rgba(97, 92, 92, .8);
+    padding: 20px;
+    margin: 3% 35% 0% 40%; 
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.but2{
+    padding: 3px;
+    cursor: pointer;
+    border: none;
+}

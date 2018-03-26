@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora  de Camisetas</title>
+    <script type="module">
+        import call from './js/calculadoraCamisa.js';
+
+        window.cad = new call();
+    
+    </script>
+    <link rel="stylesheet" href="css/calculadoraCamisa.css">
+</head>
+<body>
+    <div class="divao">
+        <div><input class="inp" id="cp" type="number" placeholder="Quantidade P (R$ 10,00)"></div> 
+        <div><input class="inp" id="cm" type="number" placeholder="Quantidade M (R$ 12,00)"></div> 
+        <div><input class="inp" id="cg" type="number" placeholder="Quantidade G (R$ 15,00)"></div> 
+
+        <div><button class="but"  id="but" onclick="cad.salvar()">Salvar Pedido</button></div> 
+
+    </div>
+    
+    <div class="tab">    
+
+
+        <div id="mensagem">
+
+        </div>
+
+
+        <div id="tam">
+
+
+        </div>
+    </div>
+
+</body>
+</html>
