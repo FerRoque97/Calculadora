@@ -1,7 +1,8 @@
 'use strict';
 
 class calculadora{
-
+    //calculo feito das camisas 
+    //Import para calculadoraCamisa
     calculo(num){
         let p = num.nump;
         let m = num.numm;
@@ -14,8 +15,6 @@ class calculadora{
         total.cag = g;
 
         total.total = parseInt((p*10) +(m*12) + (g*15));
-
-        //window.alert(total.total);
 
         return total;
     }
